@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: orange; /* Background color updated to orange */
+}
+
+#quiz-container {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 300px;
+}
+
+#quiz-title {
+  font-size: 2em;
+  color: #333; /* Text color for the title */
+  margin: 0 0 20px 0;
+}
+
+#welcome-text {
+  font-size: 1.5em;
+  color: #666; /* Text color for Welcome Text */
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+#start-btn {
+  background-color: orange; /* Start Quiz button color updated to orange */
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+#start-btn:hover {
+  background-color: darkorange; /* Slightly darker orange on hover */
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
