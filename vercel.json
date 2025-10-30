@@ -1,0 +1,1 @@
+{\n  "version": 2,\n  "public": true,\n  "builds": [\n    {\n      "src": "KQWIZBOWL/files/**/*",\n      "use": "@vercel/static"\n    }\n  ],\n  "routes": [\n    {\n      "src": "/(.*)",\n      "dest": "/KQWIZBOWL/files/$1"\n    }\n  ]\n}
